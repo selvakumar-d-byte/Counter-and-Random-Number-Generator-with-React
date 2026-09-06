@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    background-color: #eed191;
+}
+
+.main{
+    position: absolute;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #2c2b2b;
+    color: white;
+}
+
+.counter-button,
+.random-button{
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eed191;
+    cursor: pointer;
+    transition: 0.4s ease transform;
+}
+
+.counter-button:hover{
+    transform: scale(1.1)
+}
+
+.random-button:hover{
+    transform: scale(1.1)
+}
+
+.counter-section-button{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.counter-section-button button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #eed191;
+    transition: transform 0.3s ease;
+}
+
+.button-one:hover{
+    transform: scale(1.1);
+}
+
+.button-two:hover{
+    transform: scale(1.1);
+}
+
+.back-button{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eed191;
+    cursor: pointer;
+    transition: 0.4s ease transform;
+}
+
+.back-button:hover{
+    transform: translateY(-3px);
+}
+
+.generate-button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eed191;
+    cursor: pointer;
+    transition: 0.3s transform ease;
+}
+
+.generate-button:hover{
+    transform: scale(1.1)
+}
