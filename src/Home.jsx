@@ -14,7 +14,6 @@ function Home() {
                     <button className="random-button" onClick={() => setComponent("Random")}>Random Number</button>
                 </>
             }
-
             {component === 'Counter' && <Counter setComponent= {setComponent}/> }
             {component === 'Random' && <Random setComponent= {setComponent}/> }
         </>
